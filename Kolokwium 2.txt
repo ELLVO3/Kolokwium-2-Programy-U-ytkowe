@@ -1,5 +1,37 @@
 Zadanie 1
 
-b) det(A) = 954
+Wyniki podane w "..." 
 
-c) Ep  = 954.89
+
+b) A = [3, -2, 3 ,3;-2, 3, 8, 2;6, 4, 4, 20;2, -2, 2, -3];
+det(A) "= 954.00000"
+
+c)
+
+m = 0.25;
+g = 34;
+h = 112.34;
+Ep = m*g*h;
+Ep
+
+
+"Ep = 954.89"
+
+d)
+
+n_poczatkowe = 10;
+n_koniec = 40;
+suma = 0;
+for n = n_poczatkowe:n_koniec
+suma = suma + (n + 2) / (n^3 + 1);
+end
+disp(suma)
+
+Zadanie 2
+
+x = linspace(2, 6, 10);
+f1 = log2(x);
+f2 = sin(x + 1);
+plot(x, f1, 'r');
+plot(x, f2, 'b');
+grid on;
