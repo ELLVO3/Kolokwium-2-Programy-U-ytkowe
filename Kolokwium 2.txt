@@ -1,0 +1,5 @@
+Zadanie 1
+
+b) det(A) = 954
+
+c) Ep  = 954.89
